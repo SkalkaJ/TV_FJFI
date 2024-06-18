@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  18 JUN 2024 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  18 JUN 2024 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -625,28 +625,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: Diagram měření.png Graphic file (type png)
 <use Diagram měření.png>
 Package pdftex.def Info: Diagram měření.png  used on input line 67.
-(pdftex.def)             Requested size: 226.4839pt x 147.31866pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<profil.png, id=40, 453.19313pt x 455.45157pt>
+(pdftex.def)             Requested size: 163.06868pt x 106.08838pt.
+ [2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Diagram měření.png>]
+<profil.png, id=52, 453.19313pt x 455.45157pt>
 File: profil.png Graphic file (type png)
 <use profil.png>
 Package pdftex.def Info: profil.png  used on input line 89.
 (pdftex.def)             Requested size: 226.4839pt x 227.61403pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<prubeh_impulsu.png, id=41, 642.4pt x 481.8pt>
+<prubeh_impulsu.png, id=53, 642.4pt x 481.8pt>
 File: prubeh_impulsu.png Graphic file (type png)
 <use prubeh_impulsu.png>
 Package pdftex.def Info: prubeh_impulsu.png  used on input line 95.
 (pdftex.def)             Requested size: 226.4839pt x 169.86024pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3 <./Diagram měření.png> <./profil.png> <./prubeh_impulsu.PNG>]
+ [3 <./profil.png> <./prubeh_impulsu.PNG>]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
@@ -672,7 +663,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,8n,81p,1165b,2785s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (4 pages, 577684 bytes).
+Output written on main.pdf (4 pages, 577866 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream

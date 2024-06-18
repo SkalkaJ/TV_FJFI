@@ -62,12 +62,12 @@ $\frac{P_{str}}{f}$ a $\frac{E}{T}$.
 
 \section{Postup měření}
 Měření vzdálenosti metodou LiDAR probíhalo tak, že jsme si nastavili překážku pro laser v dané vzdálenosti a nechali jsme šířit laserový impuls dle schématu na obrázku, následně jsme pomocí osciloskopu detekovali časový průběh laserového impulsu který do fotodiody přišel přímo z děliče svazků a druhý impuls, který se odrazil od překážky. Pak jsme je porovnali na osciloskopu a ten nám udal časový rozdíl mezi impulsy a tím pádem nám dal potřebnou informaci pro výpočet vzdálenosti mezi rozdělovačem a zábranou. Vzdálenost jsme vypočítali pomocí tohoto vzorečku $\frac{c \cdot t}{2}$, díky kterému jsme dostali relativně přesné hodnoty s odchylkou měření do 60 cm, protože jeden puls laseru měl délku 60 cm, kdybychom pulzy dělali kratší, tak budeme mít vyšší přesnost, ale pro naše podmínky a zadání tato přesnost stačila.
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{Diagram měření.png}
+    \includegraphics[width=0.36\textwidth]{Diagram měření.png}
     \caption{diagram měřící aparatury}
 \end{figure}
-
+\pagebreak
 \section{Výsledek měření}
 
 \begin{center}
@@ -97,7 +97,6 @@ Měření vzdálenosti metodou LiDAR probíhalo tak, že jsme si nastavili přek
 \end{figure}
 
 
-\pagebreak
 \section{Shrnutí}
 Dle našich měření lze vyvodit, že LIDAR je přesnější na nižších délkách impulsu a tím pádem to je metoda, kde lze hodně zkoumat, ale je potřeba kvalitních laserových materiálů a lepších přístrojů, abychom dosáhly co nejkratších impulsů. Dále je potřeba dále vyvíjet metody detekce fotonů, jelikož u velmi malých pulzů letí malé množství elektronů a to nemusí být detekováno. Komerčně i armádně využívané lasery pro topografii metodou LIDAR jsou většinou pro oko bezpečné, kvůli jejich rychlé absorbci ve vodě, tudíž neprojdou až na sítnici a nepoškodí ji, avšak určitý typ laserů pro podvodní topografii je velmi pro oko zničující. Spolehlivost LIDARu je velmi závislá na počasí, jelikož se používají lasery absorbovatelné ve vodě, tak při vysoké vlhkosti se může paprsek absorbovat v atmosféře a nenaměřit vzdálenost žádnou. Naopak při intenzivním záření ze slunce je možné, že toto záření “přesvítí” používaný laser a výsledná data jsou také k ničemu.
 Je to metoda, která je už v praxi docela hojně používaná, ale stále je možné ji zlepšovat.
