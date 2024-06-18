@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks=true]{hyperref} % Aktivní odkazy
+\usepackage{graphicx} %vkládání obrázků
+\usepackage{authblk} %Formátování autorů
+\usepackage[backend=biber, style=iso-numeric, giveninits=true, maxbibnames=99]{biblatex} %spravuje interakci s literaturou, nastavuje ISO 690
+
+\DeclareNameAlias{default}{last-first} %Formátování jmen v citacích
+\makeatletter
+\renewcommand\Authands{, } % Formátování autorů pro češtinu
+\makeatother
+
+\textwidth 15,92cm \textheight 24.62cm
+\topmargin -2.2cm 
+\oddsidemargin 0cm \evensidemargin 0cm
+
+\pagestyle{empty}
+\addbibresource{refs.bib}
+\nocite{*} % Vytiskne celý .bib soubor bez nutnosti citovat
+
+\title{Název Příspěvku}
+
+
+\author[1]{S. Student}
+\author[2]{S. Š. Žák}
+\author[3]{S. Š. Žák }
+
+\date{\small O. Garant, školitel; KDM MFF UK\vspace{-2em}} % It is what it is. Je 16. 6. 9:00, je to šité horkou jehlou. \vspace je důležitý, jinak si budete krást místo pro příspěvek. Vždy musí být u posledního autora
+
+\affil[1]{SPŠ Telč; email@server.cz}
+\affil[2]{G Budějovická, Praha; email@server.cz}
+\affil[3]{Wichterlovo G, Ostrava; email@server.cz \vspace{-1em}} %Ditto, \vspace musí být u posledního autora
+
+\begin{document}
+
+\maketitle \thispagestyle{empty}
+
+\begin{abstract} \noindent
+Toto je abstrakt, zahrnuje, čemu se MP věnuje, a pokud lze stručně zmínit nějaký výdobytek výzkumu, je vhodno jej zmínit.
+\end{abstract}
+
+
+\section{Úvod}
+Úvodní a základní informace (motivace, současný stav problému, teoretický předpoklad)
+
+
+\section{Tělo příspěvku}
+Tady zapíšete, co jste dělali. Prosím, nezapomeňte měnit i nadpisy kapitol (tedy neponechat „Tělo příspěvku“). Klidně si jej rozdělte do více kapitol v příspěvku vlastním. Rozhodně by tato sekce ale měla obsahovat
+\begin{enumerate}
+
+\item Materiály a metody
+\item Výsledky a jejich diskuse
+\end{enumerate}
+
+
+\section{Shrnutí}
+Závěrečné informace, shrnutí, vypíchnutí hledání, zodpovězení otázek, které motivovaly zkoumání, výhled do budoucna.
+
+
+
+\section*{Poděkování}
+Jste někomu vděční? Poskytla Vám něco nějaká instituce? Měli jste nějakého školitele?
+\printbibliography
+
+\end{document}
