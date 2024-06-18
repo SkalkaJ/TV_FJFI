@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  18 JUN 2024 15:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  18 JUN 2024 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -177,66 +177,59 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@Maxaffil=\count278
 \c@authors=\count279
 \c@affil=\count280
-) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count281
-\float@exts=\toks20
-\float@box=\box51
-\@float@everytoks=\toks21
-\@floatcapt=\box52
 ) (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count282
+\lrq@indent=\count281
  (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count283
-\c@listtotal=\count284
-\c@listcount=\count285
-\c@liststart=\count286
-\c@liststop=\count287
-\c@citecount=\count288
-\c@citetotal=\count289
-\c@multicitecount=\count290
-\c@multicitetotal=\count291
-\c@instcount=\count292
-\c@maxnames=\count293
-\c@minnames=\count294
-\c@maxitems=\count295
-\c@minitems=\count296
-\c@citecounter=\count297
-\c@maxcitecounter=\count298
-\c@savedcitecounter=\count299
-\c@uniquelist=\count300
-\c@uniquename=\count301
-\c@refsection=\count302
-\c@refsegment=\count303
-\c@maxextratitle=\count304
-\c@maxextratitleyear=\count305
-\c@maxextraname=\count306
-\c@maxextradate=\count307
-\c@maxextraalpha=\count308
-\c@abbrvpenalty=\count309
-\c@highnamepenalty=\count310
-\c@lownamepenalty=\count311
-\c@maxparens=\count312
-\c@parenlevel=\count313
-\blx@tempcnta=\count314
-\blx@tempcntb=\count315
-\blx@tempcntc=\count316
-\c@blx@maxsection=\count317
-\blx@maxsegment@0=\count318
-\blx@notetype=\count319
-\blx@parenlevel@text=\count320
-\blx@parenlevel@foot=\count321
-\blx@sectionciteorder@0=\count322
-\blx@sectionciteorderinternal@0=\count323
-\blx@entrysetcounter=\count324
-\blx@biblioinstance=\count325
+\c@tabx@nest=\count282
+\c@listtotal=\count283
+\c@listcount=\count284
+\c@liststart=\count285
+\c@liststop=\count286
+\c@citecount=\count287
+\c@citetotal=\count288
+\c@multicitecount=\count289
+\c@multicitetotal=\count290
+\c@instcount=\count291
+\c@maxnames=\count292
+\c@minnames=\count293
+\c@maxitems=\count294
+\c@minitems=\count295
+\c@citecounter=\count296
+\c@maxcitecounter=\count297
+\c@savedcitecounter=\count298
+\c@uniquelist=\count299
+\c@uniquename=\count300
+\c@refsection=\count301
+\c@refsegment=\count302
+\c@maxextratitle=\count303
+\c@maxextratitleyear=\count304
+\c@maxextraname=\count305
+\c@maxextradate=\count306
+\c@maxextraalpha=\count307
+\c@abbrvpenalty=\count308
+\c@highnamepenalty=\count309
+\c@lownamepenalty=\count310
+\c@maxparens=\count311
+\c@parenlevel=\count312
+\blx@tempcnta=\count313
+\blx@tempcntb=\count314
+\blx@tempcntc=\count315
+\c@blx@maxsection=\count316
+\blx@maxsegment@0=\count317
+\blx@notetype=\count318
+\blx@parenlevel@text=\count319
+\blx@parenlevel@foot=\count320
+\blx@sectionciteorder@0=\count321
+\blx@sectionciteorderinternal@0=\count322
+\blx@entrysetcounter=\count323
+\blx@biblioinstance=\count324
 \labelnumberwidth=\skip53
 \labelalphawidth=\skip54
 \biblabelsep=\skip55
@@ -248,9 +241,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language90
-\c@mincomprange=\count326
-\c@maxcomprange=\count327
-\c@mincompwidth=\count328
+\c@mincomprange=\count325
+\c@maxcomprange=\count326
+\c@mincompwidth=\count327
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -263,76 +256,76 @@ File: iso-numeric.dbx 2022/03/20 v0.4.1 ISO 690 biblatex data model extension
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count329
-\c@savedafterword=\count330
-\c@annotator=\count331
-\c@savedannotator=\count332
-\c@author=\count333
-\c@savedauthor=\count334
-\c@bookauthor=\count335
-\c@savedbookauthor=\count336
-\c@commentator=\count337
-\c@savedcommentator=\count338
-\c@editor=\count339
-\c@savededitor=\count340
-\c@editora=\count341
-\c@savededitora=\count342
-\c@editorb=\count343
-\c@savededitorb=\count344
-\c@editorc=\count345
-\c@savededitorc=\count346
-\c@foreword=\count347
-\c@savedforeword=\count348
-\c@holder=\count349
-\c@savedholder=\count350
-\c@introduction=\count351
-\c@savedintroduction=\count352
-\c@namea=\count353
-\c@savednamea=\count354
-\c@nameb=\count355
-\c@savednameb=\count356
-\c@namec=\count357
-\c@savednamec=\count358
-\c@translator=\count359
-\c@savedtranslator=\count360
-\c@shortauthor=\count361
-\c@savedshortauthor=\count362
-\c@shorteditor=\count363
-\c@savedshorteditor=\count364
-\c@supervisor=\count365
-\c@savedsupervisor=\count366
-\c@labelname=\count367
-\c@savedlabelname=\count368
-\c@institution=\count369
-\c@savedinstitution=\count370
-\c@lista=\count371
-\c@savedlista=\count372
-\c@listb=\count373
-\c@savedlistb=\count374
-\c@listc=\count375
-\c@savedlistc=\count376
-\c@listd=\count377
-\c@savedlistd=\count378
-\c@liste=\count379
-\c@savedliste=\count380
-\c@listf=\count381
-\c@savedlistf=\count382
-\c@location=\count383
-\c@savedlocation=\count384
-\c@organization=\count385
-\c@savedorganization=\count386
-\c@origlocation=\count387
-\c@savedoriglocation=\count388
-\c@origpublisher=\count389
-\c@savedorigpublisher=\count390
-\c@publisher=\count391
-\c@savedpublisher=\count392
-\c@language=\count393
-\c@savedlanguage=\count394
-\c@origlanguage=\count395
-\c@savedoriglanguage=\count396
-\c@pageref=\count397
-\c@savedpageref=\count398
+\c@afterword=\count328
+\c@savedafterword=\count329
+\c@annotator=\count330
+\c@savedannotator=\count331
+\c@author=\count332
+\c@savedauthor=\count333
+\c@bookauthor=\count334
+\c@savedbookauthor=\count335
+\c@commentator=\count336
+\c@savedcommentator=\count337
+\c@editor=\count338
+\c@savededitor=\count339
+\c@editora=\count340
+\c@savededitora=\count341
+\c@editorb=\count342
+\c@savededitorb=\count343
+\c@editorc=\count344
+\c@savededitorc=\count345
+\c@foreword=\count346
+\c@savedforeword=\count347
+\c@holder=\count348
+\c@savedholder=\count349
+\c@introduction=\count350
+\c@savedintroduction=\count351
+\c@namea=\count352
+\c@savednamea=\count353
+\c@nameb=\count354
+\c@savednameb=\count355
+\c@namec=\count356
+\c@savednamec=\count357
+\c@translator=\count358
+\c@savedtranslator=\count359
+\c@shortauthor=\count360
+\c@savedshortauthor=\count361
+\c@shorteditor=\count362
+\c@savedshorteditor=\count363
+\c@supervisor=\count364
+\c@savedsupervisor=\count365
+\c@labelname=\count366
+\c@savedlabelname=\count367
+\c@institution=\count368
+\c@savedinstitution=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+\c@location=\count382
+\c@savedlocation=\count383
+\c@organization=\count384
+\c@savedorganization=\count385
+\c@origlocation=\count386
+\c@savedoriglocation=\count387
+\c@origpublisher=\count388
+\c@savedorigpublisher=\count389
+\c@publisher=\count390
+\c@savedpublisher=\count391
+\c@language=\count392
+\c@savedlanguage=\count393
+\c@origlanguage=\count394
+\c@savedoriglanguage=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
 \shorthandwidth=\skip61
 \shortjournalwidth=\skip62
 \shortserieswidth=\skip63
@@ -356,19 +349,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count399
-\c@textcitetotal=\count400
-\c@textcitemaxnames=\count401
-\c@biburlbigbreakpenalty=\count402
-\c@biburlbreakpenalty=\count403
-\c@biburlnumpenalty=\count404
-\c@biburlucpenalty=\count405
-\c@biburllcpenalty=\count406
+\c@textcitecount=\count398
+\c@textcitetotal=\count399
+\c@textcitemaxnames=\count400
+\c@biburlbigbreakpenalty=\count401
+\c@biburlbreakpenalty=\count402
+\c@biburlnumpenalty=\count403
+\c@biburlucpenalty=\count404
+\c@biburllcpenalty=\count405
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count407
+\c@smartand=\count406
 )
 Package biblatex Info: Trying to load bibliography style 'iso-numeric'...
 Package biblatex Info: ... file 'iso-numeric.bbx' found.
@@ -434,8 +427,8 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-04-11 L3 programming layer (loader) 
  (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count408
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count407
+\l__pdf_internal_box=\box51
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-04-11 L3 programming layer (loader) 
@@ -450,29 +443,29 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count409
-\@quotereset=\count410
+\@quotelevel=\count408
+\@quotereset=\count409
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -480,24 +473,23 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 36.
- (./main.out) (./main.out)
+Package hyperref Info: Link coloring ON on input line 35.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count411
+\scratchcounter=\count410
 \scratchdimen=\dimen148
-\scratchbox=\box54
-\nofMPsegments=\count412
-\nofMParguments=\count413
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count414
+\scratchbox=\box52
+\nofMPsegments=\count411
+\nofMParguments=\count412
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count413
 \MPscratchDim=\dimen149
-\MPnumerator=\count415
-\makeMPintoPDFobject=\count416
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count414
+\makeMPintoPDFobject=\count415
+\everyMPtoPDFconversion=\toks21
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -526,61 +518,83 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 38.
+(Font)              <14.4> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 51.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 51.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 51.
+(Font)              <7> on input line 37.
  [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<Diagram měření.png, id=45, 1551.7975pt x 1084.05pt>
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 48.
+<Diagram měření.png, id=15, 1551.7975pt x 1084.05pt>
 File: Diagram měření.png Graphic file (type png)
 <use Diagram měření.png>
-Package pdftex.def Info: Diagram měření.png  used on input line 63.
+Package pdftex.def Info: Diagram měření.png  used on input line 55.
 (pdftex.def)             Requested size: 226.4839pt x 158.21706pt.
- [3
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.77 
-      <./Diagram měření.png>]
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 60.
+
+c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_TeX/main.tex:60: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.60 ...me vypočítali podle vzorečků $(P_{stř
+                                                  } \cdot t)$ a $\frac{E}{T}.$
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Diagram měření.png>]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
 (biblatex)                Using 'family-given' now.
 
-[4] (./main.aux)
+[3] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AF6E9754047A1B731992C00B5F99EFE4;787.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  09E9D1A6F3135A054EF80AA82512D7EF;787.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17172 strings out of 474049
- 303934 string characters out of 5746277
- 1945754 words of memory out of 5000000
- 39409 multiletter control sequences out of 15000+600000
+ 17091 strings out of 474049
+ 302773 string characters out of 5746277
+ 1937754 words of memory out of 5000000
+ 39337 multiletter control sequences out of 15000+600000
  564084 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,81p,994b,2785s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (4 pages, 209449 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (3 pages, 207801 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

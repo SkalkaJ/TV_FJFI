@@ -4,6 +4,7 @@
 \usepackage[colorlinks=true]{hyperref} % Aktivní odkazy
 \usepackage{graphicx} %vkládání obrázků
 \usepackage{authblk} %Formátování autorů
+\usepackage{float}
 \usepackage[backend=biber, style=iso-numeric, giveninits=true, maxbibnames=99]{biblatex} %spravuje interakci s literaturou, nastavuje ISO 690
 
 \DeclareNameAlias{default}{last-first} %Formátování jmen v citacích
@@ -41,34 +42,38 @@
 
 
 \section{Úvod}
-Úvodní a základní informace (motivace, současný stav problému, teoretický předpoklad)
+Laser funguje na základě třech kvantových jevů. absorbce, spontánní emise a stimulovaná emise. Tyto jevy se dějí v aktivním prostředí všechny najednou a podle populace energetických hladin některé jevy převyšují jiné. Laser těhto jevů využívá, aby invertoval populace hladin iontů, tím se nabil a následně přes spontánní emisi přešel v emisi stimulovanou a fotony stimulované emise odrážel od zrcadel na koncích krystalu a umocňoval tak jejich počet (intenzitu zářeni) při každém průchodu resonátorem. A výstupovým částečně propustným zrcadlem odletí nějaké procento fotonů a ty tvoří laserové záření.
+\\Q-spínání je jev, kdy se sníží jeden z kvantových jevů na minimum a to stimulovaná emise. Tímto způsobem lze ionty nabít na vyšší hladinu, než by bylo normálně možné a vytvořit velmi silný, krátký laserový impuls. Q-spínání je rozděleno na 2 typy, aktivní a pasivní. Aktivní spínání znamená, že mu musíme dodávat energii zvenčí (mechanicky ovládáme zrcadlo), pasivní q-spínání nastává chemicky, kdy je použit saturovatelný absorbér, ten mění svojí reflektivitu na základě přijmuté intensity záření, při dostatečné intensitě absorbér propouští veškeré záření.
+\\mikročipový laser je speciální případ laseru, kdy jsou na aktivním prostředí zrcadla již nanesena a je snaza zmenšit laser do co nejmenšího objemu. pro mikročipový pasivně Q-spínaný laser to znamená, že aktivní prostředí je spojeno s absorbérem a na konce vzniklého válečku jsou nanesena zrcadla
 
-\pagebreak
+
 \section{Popis našeho laseru}
 Při našem pokusu jsme použili mikročipový pasivně Q-spínaný laser Nd:YAG/V:YAG, který vyzařoval ve spektrální oblasti $1,3$ $\mu$m, která je “eyesafe”, tedy bezpečná pro lidské oko. Náš laser měl tvar válce s průměrem $5$ mm a délka aktivního prostředí Nd:YAG byly $4$ mm a délka saturovatelného absorbéru V:YAG byla $0,7$ mm. počáteční transmise absorbéru byla $85$ \% a reflektivita výstupního zrcadla byla $90$ \% v již zmiňované spektrální oblasti. Koncentrace iontů Nd$^{3+}$ v YAG matrici bylo 1,1 \% Nd/Y. 
 \\Náš pevnolátkový laser byl čerpán laserovou diodou na vlnové délce 808 nm, která už není oku bezpečná. Dioda byla použita v pulsním režimu s délkou impulsu 500 um a opakovací frekvencí 50Hz. Proud na diodě byl nastaven na 30 A a teplota byla 30 °C. Pro zefektivnění čerpání, byla dioda navedena optickým vláknem do fokusační optiky, tvořenou kolimátorem a fokusační čočkou.
 
+\pagebreak
+\section{Měření výstupních parametrů laseru}
+Pro správné určení laseru jsme potřebovali změřit střední výkon, délku a časový průběh impulsu, profil svazku, vyzařované spektrum, energii a špičkový výkon. Střední výkon jsme měřili pomocí powermetru THORLABS PM100USB a sondou THORLABS PM16-401. Délku a časový průběh laserového impulsu jsme měřili pomocí osciloskopu TEKTRONIX TDS 3052B a InGaAs fotodiodou (FGA10). Profil svazku jsme měřili křemíkovou CCD kamerou WinCamD. Vyzařované spektrum jsme naměřili InGaAs mřížkovým spektrometrem od Stellarnetu (DWARF-STAR). Energii a špičkový výkon jsme vypočítali podle vzorečků
+$\frac{P_{str}}{f}$ a $\frac{E}{T}$.
+
 \section{Postup měření}
 Měření vzdálenosti metodou LiDAR probíhalo tak, že jsme si nastavili překážku pro laser v dané vzdálenosti a nechali jsme šířit laserový impuls dle schématu na obrázku, následně jsme pomocí osciloskopu detekovali časový průběh laserového impulsu který do fotodiody přišel přímo z děliče svazků a druhý impuls, který se odrazil od překážky. Pak jsme je porovnali na osciloskopu a ten nám udal časový rozdíl mezi impulsy a tím pádem nám dal potřebnou informaci pro výpočet vzdálenosti mezi rozdělovačem a zábranou. Vzdálenost jsme vypočítali pomocí tohoto vzorečku $\frac{c \cdot t}{2}$, díky kterému jsme dostali relativně přesné hodnoty s odchylkou měření do 60 cm, protože jeden puls laseru měl délku 60 cm, kdybychom pulzy dělali kratší, tak budeme mít vyšší přesnost, ale pro naše podmínky a zadání tato přesnost stačila.
-\begin{figure}[bh]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\textwidth]{Diagram měření.png}
     \caption{diagram měřící aparatury}
 \end{figure}
 
-\section{Měření výstupních parametrů laseru}
-Pro správné určení laseru jsme potřebovali změřit střední výkon, délku a časový průběh impulsu, profil svazku, vyzařované spektrum, energii a špičkový výkon. Střední výkon jsme měřili pomocí powermetru THORLABS PM100USB a sondou THORLABS PM16-401. Délku a časový průběh laserového impulsu jsme měřili pomocí osciloskopu TEKTRONIX TDS 3052B a InGaAs fotodiodou (FGA10). Profil svazku jsme měřili křemíkovou CCD kamerou WinCamD. Vyzařované spektrum jsme naměřili InGaAs mřížkovým spektrometrem od Stellarnetu (DWARF-STAR). Energii a špičkový výkon jsme vypočítali podle vzorečků $(P_{stř} \cdot t)$ a $\frac{E}{T}.$
 \section{Výsledek měření}
-Lorem Ipsum
+
 
 \section{Shrnutí}
-Závěrečné informace, shrnutí, vypíchnutí hledání, zodpovězení otázek, které motivovaly zkoumání, výhled do budoucna.
-
 
 
 \section*{Poděkování}
 Chtěli bychom velice poděkovat Ing. Kryštofovi Kadlecovi za jeho pomoc a podporu při vytváření tohoto příspěvku.
 Náš dík patří také FJFI za umožnění výzkumu v rámci projektu a KLFF za poskytnutí prostoru.
 \printbibliography
+
 
 \end{document}

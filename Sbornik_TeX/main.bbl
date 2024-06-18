@@ -1,0 +1,100 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{kadlec2024output}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=dcd8b3ecf7c2d7dd7a0b7ec3f48f064a}{%
+           family={Kadlec},
+           familyi={K\bibinitperiod},
+           given={Kryštof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8090888a74956dc917b17c4602341639}{%
+           family={Šulc},
+           familyi={Š\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aa989a1fc049ee5b25b258cd8548d24c}{%
+           family={Jelínková},
+           familyi={J\bibinitperiod},
+           given={Helena},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1deb02e0943a66a4164d870038260f6d}{%
+           family={Nejezchleb},
+           familyi={N\bibinitperiod},
+           given={Karel},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{2319c7f479df7a67f6a14ba42998e9d8}
+      \strng{fullhash}{2319c7f479df7a67f6a14ba42998e9d8}
+      \strng{fullhashraw}{2319c7f479df7a67f6a14ba42998e9d8}
+      \strng{bibnamehash}{2319c7f479df7a67f6a14ba42998e9d8}
+      \strng{authorbibnamehash}{2319c7f479df7a67f6a14ba42998e9d8}
+      \strng{authornamehash}{2319c7f479df7a67f6a14ba42998e9d8}
+      \strng{authorfullhash}{2319c7f479df7a67f6a14ba42998e9d8}
+      \strng{authorfullhashraw}{2319c7f479df7a67f6a14ba42998e9d8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Solid State Lasers XXXIII: Technology and Devices}
+      \field{title}{Output parameters optimization of {Q}-switched {Nd:YAG/V:YAG} microchip laser generating at 1.34 $\mu$m}
+      \field{volume}{12864}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{106\bibrangedash 114}
+      \range{pages}{9}
+    \endentry
+    \entry{wiki:xxx}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=91e5f9f56096fe3cd2cead79518a0885}{%
+           family={Wikipedie},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{fullhash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{fullhashraw}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{bibnamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authorbibnamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authornamehash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authorfullhash}{91e5f9f56096fe3cd2cead79518a0885}
+      \strng{authorfullhashraw}{91e5f9f56096fe3cd2cead79518a0885}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; navštíveno 18. 06. 2024]}
+      \field{title}{Lidar --- Wikipedie: Otevřená encyklopedie}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://cs.wikipedia.org/w/index.php?title=Lidar&oldid=22992637
+      \endverb
+      \verb{url}
+      \verb https://cs.wikipedia.org/w/index.php?title=Lidar&oldid=22992637
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
