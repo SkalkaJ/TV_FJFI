@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1718721803.16217 -1
-  "main.bcf" 1718721802 108446 5ebaf4974c05f2839ab560214606749f "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1718722120.93247 -1
+  "main.bcf" 1718722120 108446 5ebaf4974c05f2839ab560214606749f "pdflatex"
   "refs.bib" 1718716162 658 00ad03d311e1029253004e342c2a224c ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1718721800.73761 "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" "main.pdf" "main" 1718721803.16303 0
-  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_TeX/main.tex" 1718721797 9077 36054aee1465cd632d7d358c49e3d1b8 ""
-  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" 1718721797 9077 36054aee1465cd632d7d358c49e3d1b8 ""
+["pdflatex"] 1718722118.44796 "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" "main.pdf" "main" 1718722120.93332 0
+  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_TeX/main.tex" 1718722119 9077 36054aee1465cd632d7d358c49e3d1b8 ""
+  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" 1718722119 9077 36054aee1465cd632d7d358c49e3d1b8 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1715321444 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1715322634 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1715322112 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -120,10 +120,10 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1715329667 5529302 90924f286bd62ce7380ad2a7c245cc29 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1715330208 8225102 6c44216136f08e23edae79a385e367e1 ""
   "c:/texlive/2024/texmf.cnf" 1715329613 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1718721802 1826 039c4d342034085e2b2432acacdad7c1 "pdflatex"
+  "main.aux" 1718722120 1826 039c4d342034085e2b2432acacdad7c1 "pdflatex"
   "main.bbl" 1718717225 3793 275110a057b182e02527db5db0126467 "biber main"
-  "main.out" 1718721802 787 af6e9754047a1b731992c00b5f99efe4 "pdflatex"
-  "main.run.xml" 1718721802 2435 d436467da2b22c293df00aaa08ad0fc9 "pdflatex"
+  "main.out" 1718722120 787 af6e9754047a1b731992c00b5f99efe4 "pdflatex"
+  "main.run.xml" 1718722120 2435 d436467da2b22c293df00aaa08ad0fc9 "pdflatex"
   "profil.png" 1718719170 253630 6e8f325774c3301d0361af3e68999142 ""
   "prubeh_impulsu.PNG" 1718719288 12493 d703e142a66100be288184293f4e1965 ""
   (generated)
