@@ -41,45 +41,54 @@
 \maketitle \thispagestyle{empty}
 
 \begin{abstract} \noindent
-    Náš příspěvek se zaměřuje na aplikaci technologie dálkového měření vzdálenosti - LIDAR (Light Detection And Ranging). Tato technika je založena na stanovení doby šíření laserového paprsku odraženého od snímaného objektu. \\Věnuje se také základům generace laserového záření a měření výstupních parametrů u Q-spínaného mikročipového laseru Nd:YAG.\end{abstract}
+    Náš příspěvek se zaměřuje na aplikaci technologie dálkového měření vzdálenosti - LIDAR (Light Detection And Ranging). Tato technika je založena na stanovení doby šíření laserového paprsku odraženého od snímaného objektu. Věnuje se také základům generace laserového záření a měření výstupních parametrů Q-spínaného mikročipového laseru Nd:YAG/V:YAG.\end{abstract}
 
 
 \section{Úvod}
-Laser funguje na základě třech kvantových jevů. absorbce, spontánní emise a stimulovaná emise. Tyto jevy se dějí v aktivním prostředí všechny najednou a podle populace energetických hladin některé jevy převyšují jiné. Laser těhto jevů využívá, aby invertoval populace hladin iontů, tím se nabil a následně přes spontánní emisi přešel v emisi stimulovanou a fotony stimulované emise odrážel od zrcadel na koncích krystalu a umocňoval tak jejich počet (intenzitu zářeni) při každém průchodu resonátorem. A výstupovým částečně propustným zrcadlem odletí nějaké procento fotonů a ty tvoří laserové záření.
-\\Q-spínání je jev, kdy se sníží jeden z kvantových jevů na minimum a to stimulovaná emise. Tímto způsobem lze ionty nabít na vyšší hladinu, než by bylo normálně možné a vytvořit velmi silný, krátký laserový impuls. Q-spínání je rozděleno na 2 typy, aktivní a pasivní. Aktivní spínání znamená, že mu musíme dodávat energii zvenčí (mechanicky ovládáme zrcadlo), pasivní q-spínání nastává chemicky, kdy je použit saturovatelný absorbér, ten mění svojí reflektivitu na základě přijmuté intensity záření, při dostatečné intensitě absorbér propouští veškeré záření.
-\\mikročipový laser je speciální případ laseru, kdy jsou na aktivním prostředí zrcadla již nanesena a je snaza zmenšit laser do co nejmenšího objemu. pro mikročipový pasivně Q-spínaný laser to znamená, že aktivní prostředí je spojeno s absorbérem a na konce vzniklého válečku jsou nanesena zrcadla
+Laser funguje na základě tří kvantových jevů: absorbce, spontánní emise a stimulovaná emise. Tyto jevy se dějí v aktivním prostředí všechny najednou a podle populace energetických hladin některé z těchto jevů převažují. Laser těhto jevů využívá, aby invertoval populace hladin iontů, tím se excitoval a následně přes spontánní emisi přešel v emisi stimulovanou a fotony stimulované emise odrážel od zrcadel na koncích krystalu a umocňoval tak jejich počet (intenzitu zářeni) při každém průchodu resonátorem. A výstupním částečně propustným zrcadlem odletí nějaké procento fotonů a ty tvoří laserové záření.
+\\Q-spínání je jev, kdy se na daný okamžik zvýší ztráty v resonátoru, poté se při dostatečném načerpání aktivního prostředí opět sníží. Tímto způsobem lze ionty vybudit na vyšší hladinu, než by bylo normálně možné a vytvořit velmi silný, krátký laserový impuls. Q-spínání je rozděleno na 2 typy, aktivní a pasivní. Aktivní spínání znamená, že mu musíme dodávat energii zvenčí (mechanicky ovládáme zrcadlo), při pasivním q-spínání je použit saturovatelný absorbér, ten mění svojí reflektivitu na základě absorbované intensity záření, při dostatečné intensitě absorbér propouští veškeré záření.
+\\mikročipový laser je speciální případ laseru, kdy jsou na aktivním prostředí zrcadla již nanesena a je snaza zmenšit laser do co nejmenšího objemu. pro mikročipový pasivně Q-spínaný laser to znamená, že aktivní prostředí je spojeno s absorbérem a na konce vzniklého válečku jsou nanesena zrcadla.
 \\LIDAR je metoda měření vzdálenosti pomocí odrazu laseru od překážky. Je využívaná například v topografii na utváření map a také map oceánů, dále se využívá například při těžení, plánování a mnohém dalším.
-\\Je tato metoda však dostatečně přesná? Ubližuje nám záření z topografických letadel? Jaká je spolehlivost měření LiDARem a na čem je závislá?
+\\Je tato metoda však dostatečně přesná? Ubližuje nám záření z topografických letadel? Jaká je spolehlivost měření LIDARem a na čem je závislá?
 
 
 \section{Popis našeho laseru}
-Při našem pokusu jsme použili mikročipový pasivně Q-spínaný laser Nd:YAG/V:YAG, který vyzařoval ve spektrální oblasti $1,3$ $\mu$m, která je “eyesafe”, tedy bezpečná pro lidské oko. Náš laser měl tvar válce s průměrem $5$ mm a délka aktivního prostředí Nd:YAG byly $4$ mm a délka saturovatelného absorbéru V:YAG byla $0,7$ mm. počáteční transmise absorbéru byla $85$ \% a reflektivita výstupního zrcadla byla $90$ \% v již zmiňované spektrální oblasti. Koncentrace iontů Nd$^{3+}$ v YAG matrici bylo 1,1 \% Nd/Y. 
-\\Náš pevnolátkový laser byl čerpán laserovou diodou na vlnové délce 808 nm, která už není oku bezpečná. Dioda byla použita v pulsním režimu s délkou impulsu 500 um a opakovací frekvencí 50Hz. Proud na diodě byl nastaven na 30 A a teplota byla 30 °C. Pro zefektivnění čerpání, byla dioda navedena optickým vláknem do fokusační optiky, tvořenou kolimátorem a fokusační čočkou.
+Při našem pokusu jsme použili mikročipový pasivně Q-spínaný laser Nd:YAG/V:YAG, který vyzařoval ve spektrální oblasti $1,3$ $\mu$m, která je “eyesafe”, tedy bezpečná pro lidské oko v důsledku relativně vysoké absorpce ve vodě. Náš laser měl tvar válce s průměrem $5$ mm a délka aktivního prostředí Nd:YAG byly $4$ mm a délka saturovatelného absorbéru V:YAG byla $0,7$ mm. počáteční transmise absorbéru byla $85$ \% a reflektivita výstupního zrcadla byla $90$ \% v již zmiňované spektrální oblasti. Koncentrace iontů Nd$^{3+}$ v YAG matrici bylo 1,1 \% Nd/Y. 
+\\Náš pevnolátkový laser byl čerpán laserovou diodou na vlnové délce 808 nm, která už není oku bezpečná. Dioda byla použita v pulsním režimu s délkou impulsu 500 um a opakovací frekvencí 50Hz. Proud na diodě byl nastaven na 30 A a teplota byla 30 °C. Pro zefektivnění čerpání byla dioda navedena optickým vláknem do fokusační optiky, tvořenou kolimátorem a fokusační čočkou.
 
 \section{Měření výstupních parametrů laseru}
-Pro správné určení laseru jsme potřebovali změřit střední výkon, délku a časový průběh impulsu, profil svazku, vyzařované spektrum, energii a špičkový výkon. Střední výkon jsme měřili pomocí powermetru THORLABS PM100USB a sondou THORLABS PM16-401. Délku a časový průběh laserového impulsu jsme měřili pomocí osciloskopu TEKTRONIX TDS 3052B a InGaAs fotodiodou (FGA10). Profil svazku jsme měřili křemíkovou CCD kamerou WinCamD. Vyzařované spektrum jsme naměřili InGaAs mřížkovým spektrometrem od Stellarnetu (DWARF-STAR). Energii a špičkový výkon jsme vypočítali podle vzorečků
+Pro charakterizaci laseru jsme měřili střední výkon, délku a časový průběh impulsu, profil svazku, vyzařované spektrum, energii a špičkový výkon generovaných laserových impulzů. Střední výkon jsme měřili pomocí powermetru THORLABS PM100USB a sondou THORLABS PM16-401. Délku a časový průběh laserového impulsu jsme měřili pomocí osciloskopu TEKTRONIX TDS 3052B a InGaAs fotodiodou (FGA10). Profil svazku jsme měřili křemíkovou CCD kamerou WinCamD. Vyzařované spektrum jsme naměřili InGaAs mřížkovým spektrometrem od Stellarnetu (DWARF-STAR). Energii a špičkový výkon jsme vypočítali podle vzorečků
 $\frac{P_{str}}{f}$ a $\frac{E}{T}$.
 
 \section{Postup měření}
-Měření vzdálenosti metodou LiDAR probíhalo tak, že jsme si nastavili překážku pro laser v dané vzdálenosti a nechali jsme šířit laserový impuls dle schématu na obrázku, následně jsme pomocí osciloskopu detekovali časový průběh laserového impulsu který do fotodiody přišel přímo z děliče svazků a druhý impuls, který se odrazil od překážky. Pak jsme je porovnali na osciloskopu a ten nám udal časový rozdíl mezi impulsy a tím pádem nám dal potřebnou informaci pro výpočet vzdálenosti mezi rozdělovačem a zábranou. Vzdálenost jsme vypočítali pomocí tohoto vzorečku $\frac{c \cdot t}{2}$, díky kterému jsme dostali relativně přesné hodnoty s odchylkou měření do 60 cm, protože jeden puls laseru měl délku 60 cm, kdybychom pulzy dělali kratší, tak budeme mít vyšší přesnost, ale pro naše podmínky a zadání tato přesnost stačila.
+Měření vzdálenosti metodou LIDAR probíhalo tak, že jsme umístili překážku pro laser v dané vzdálenosti a nechali jsme šířit laserový impuls dle schématu na obrázku 1. Následně jsme pomocí osciloskopu detekovali časový průběh laserového impulsu který na fotodiodu dopadl přímo z děliče svazků a druhý impuls, který se odrazil od překážky. Poté jsme pomocí osciloskopu nalezli časový rozdíl mezi impulzy, což nám dalo potřebnou informaci pro výpočet vzdálenosti mezi rozdělovačem a zábranou. Vzdálenost jsme vypočítali pomocí tohoto vzorečku $\frac{c \cdot t}{2}$, díky kterému jsme dostali relativně přesné hodnoty s odchylkou měření do 60 cm, protože jeden puls laseru měl délku 60 cm. Kdybychom pulzy dělali kratší, tak budeme mít vyšší přesnost, ale pro naše podmínky a zadání tato přesnost stačila.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.36\textwidth]{Diagram měření.png}
-    \caption{diagram měřící aparatury}
+    \includegraphics[width=0.5\textwidth]{Diagram měření.png}
+    \caption{Diagram měřící aparatury.}
 \end{figure}
+
 \pagebreak
 \section{Výsledek měření}
-    
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.5\textwidth]{profil.png}
-    \caption{Profil svazku laseru}
-\end{figure}
+Po změření nám vyšly následující výsledky:
+Profil svazku laseru je vidět na obrázku 2. 
+Časový průběh laserového impulsu je vidět na obrázku 3.
+Energie impulsu nám vyšla 50 uJ a špičkový výkon 25 kW.
+Výsledky měření vzdálenosti metodou LIDAR jsou zaznamenány v tabulce níže.
+
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.5\textwidth]{prubeh_impulsu.png}
-    \caption{Časový průběh laserového impulsu}
+    \includegraphics[width=0.3
+    \textwidth]{profil.png}
+    \caption{Profil svazku laseru.}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{prubeh_impulsu.png}
+    \caption{Časový průběh laserového impulsu.}
 \end{figure}
 
 \begin{center}
@@ -95,16 +104,14 @@ Měření vzdálenosti metodou LiDAR probíhalo tak, že jsme si nastavili přek
      \hline
     \end{tabular}
     \end{center}
-\pagebreak
-\section{Shrnutí}
-Dle našich měření lze vyvodit, že LIDAR je přesnější na nižších délkách impulsu a tím pádem to je metoda, kde lze hodně zkoumat, ale je potřeba kvalitních laserových materiálů a lepších přístrojů, abychom dosáhly co nejkratších impulsů. Dále je potřeba dále vyvíjet metody detekce fotonů, jelikož u velmi malých pulzů letí malé množství elektronů a to nemusí být detekováno. Komerčně i armádně využívané lasery pro topografii metodou LIDAR jsou většinou pro oko bezpečné, kvůli jejich rychlé absorbci ve vodě, tudíž neprojdou až na sítnici a nepoškodí ji, avšak určitý typ laserů pro podvodní topografii je velmi pro oko zničující. Spolehlivost LIDARu je velmi závislá na počasí, jelikož se používají lasery absorbovatelné ve vodě, tak při vysoké vlhkosti se může paprsek absorbovat v atmosféře a nenaměřit vzdálenost žádnou. Naopak při intenzivním záření ze slunce je možné, že toto záření “přesvítí” používaný laser a výsledná data jsou také k ničemu.
+\section{Shrnutí a závěr}
+Dle našich měření lze vyvodit, že LIDAR je přesnější při použití kratších impulzů a tím pádem to je metoda, kde lze hodně zkoumat, ale je potřeba kvalitních laserových materiálů a lepších přístrojů, abychom dosáhly co nejkratších impulsů. Dále je potřeba dále vyvíjet metody detekce fotonů, jelikož impulzy s nízkou energií nemusí být snadno detekovat. Komerčně i armádně využívané lasery pro topografii metodou LIDAR jsou většinou pro oko bezpečné, kvůli jejich vysoké absorbci ve vodě, tudíž neprojdou až na sítnici a nepoškodí ji, avšak určitý typ laserů pro podvodní topografii je velmi pro oko zničující. Spolehlivost LIDARu je velmi závislá na počasí, jelikož se používají lasery absorbovatelné ve vodě, tak při vysoké vlhkosti se může paprsek absorbovat v atmosféře a znemožnit měření. Naopak při intenzivním záření ze slunce je možné, že toto záření “přesvítí” používaný laser a výsledná data jsou také k ničemu.
 Je to metoda, která je už v praxi docela hojně používaná, ale stále je možné ji zlepšovat.
 
 
 \section*{Poděkování}
-Chtěli bychom velice poděkovat Ing. Kryštofovi Kadlecovi za jeho pomoc a podporu při vytváření tohoto příspěvku.
+Chtěli bychom velice poděkovat Ing. Kryštofovi Kadleci za jeho pomoc a podporu při vytváření tohoto příspěvku.
 Náš dík patří také FJFI za umožnění výzkumu v rámci projektu a KLFF za poskytnutí prostoru.
 \printbibliography
-
 
 \end{document}

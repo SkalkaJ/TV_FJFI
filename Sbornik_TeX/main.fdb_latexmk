@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1718723203.46683 -1
-  "main.bcf" 1718723203 108446 5ebaf4974c05f2839ab560214606749f "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1718727134.87208 -1
+  "main.bcf" 1718727134 108446 5ebaf4974c05f2839ab560214606749f "pdflatex"
   "refs.bib" 1718716162 658 00ad03d311e1029253004e342c2a224c ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1718723201.03515 "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" "main.pdf" "main" 1718723203.46769 0
-  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_TeX/main.tex" 1718723197 9085 911afefa84302179652f37a269f31bc5 ""
-  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" 1718723197 9085 911afefa84302179652f37a269f31bc5 ""
+["pdflatex"] 1718727132.36992 "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" "main.pdf" "main" 1718727134.87297 0
+  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_TeX/main.tex" 1718727131 9458 ca42c34fdc47ed5a61f17a3aff9b2681 ""
+  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" 1718727131 9458 ca42c34fdc47ed5a61f17a3aff9b2681 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1715321444 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1715322634 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1715322112 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -120,10 +120,10 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1715329667 5529302 90924f286bd62ce7380ad2a7c245cc29 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1715330208 8225102 6c44216136f08e23edae79a385e367e1 ""
   "c:/texlive/2024/texmf.cnf" 1715329613 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1718723203 1826 f7fcd6997a0d7c96b834838a49a77e5e "pdflatex"
+  "main.aux" 1718727134 1839 288184e56f4eb07d06ed88c8f525cd46 "pdflatex"
   "main.bbl" 1718717225 3793 275110a057b182e02527db5db0126467 "biber main"
-  "main.out" 1718723203 787 af6e9754047a1b731992c00b5f99efe4 "pdflatex"
-  "main.run.xml" 1718723203 2435 d436467da2b22c293df00aaa08ad0fc9 "pdflatex"
+  "main.out" 1718727134 839 9ade245377bd0ff0ce551791a8d78f1f "pdflatex"
+  "main.run.xml" 1718727134 2435 d436467da2b22c293df00aaa08ad0fc9 "pdflatex"
   "profil.png" 1718719170 253630 6e8f325774c3301d0361af3e68999142 ""
   "prubeh_impulsu.PNG" 1718719288 12493 d703e142a66100be288184293f4e1965 ""
   (generated)
