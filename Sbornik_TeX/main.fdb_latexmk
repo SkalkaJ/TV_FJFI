@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1718717223.17843 "main.bcf" "main.bbl" "main" 1718718049.67982 0
-  "main.bcf" 1718718049 108446 5ebaf4974c05f2839ab560214606749f "pdflatex"
+["biber main"] 1718717223.17843 "main.bcf" "main.bbl" "main" 1718718253.02006 0
+  "main.bcf" 1718718252 108446 5ebaf4974c05f2839ab560214606749f "pdflatex"
   "refs.bib" 1718716162 658 00ad03d311e1029253004e342c2a224c ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1718718048.00848 "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" "main.pdf" "main" 1718718049.68064 0
-  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_TeX/main.tex" 1718718045 6838 439c38370395c554e1afad8895ca3ef5 ""
-  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" 1718718045 6838 439c38370395c554e1afad8895ca3ef5 ""
+["pdflatex"] 1718718251.38417 "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" "main.pdf" "main" 1718718253.02088 0
+  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_TeX/main.tex" 1718718248 6838 2046e7b25c15f9244105f2e1bbed0654 ""
+  "c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex" 1718718248 6838 2046e7b25c15f9244105f2e1bbed0654 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1715321444 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1715322634 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1715322112 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -114,10 +114,10 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1715329667 5529302 90924f286bd62ce7380ad2a7c245cc29 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1715330208 8225102 6c44216136f08e23edae79a385e367e1 ""
   "c:/texlive/2024/texmf.cnf" 1715329613 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1718718049 1523 4b04f89c4f6425cb6e217f096352da5e "pdflatex"
+  "main.aux" 1718718252 1523 578b5e0bb36bda3fc925d4021c6a5095 "pdflatex"
   "main.bbl" 1718717225 3793 275110a057b182e02527db5db0126467 "biber main"
-  "main.out" 1718718049 787 af6e9754047a1b731992c00b5f99efe4 "pdflatex"
-  "main.run.xml" 1718718049 2435 d436467da2b22c293df00aaa08ad0fc9 "pdflatex"
+  "main.out" 1718718252 787 af6e9754047a1b731992c00b5f99efe4 "pdflatex"
+  "main.run.xml" 1718718252 2435 d436467da2b22c293df00aaa08ad0fc9 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
