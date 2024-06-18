@@ -49,14 +49,15 @@ Při našem pokusu jsme použili mikročipový pasivně Q-spínaný laser Nd:YAG
 \\Náš pevnolátkový laser byl čerpán laserovou diodou na vlnové délce 808 nm, která už není oku bezpečná. Dioda byla použita v pulsním režimu s délkou impulsu 500 um a opakovací frekvencí 50Hz. Proud na diodě byl nastaven na 30 A a teplota byla 30 °C. Pro zefektivnění čerpání, byla dioda navedena optickým vláknem do fokusační optiky, tvořenou kolimátorem a fokusační čočkou.
 
 \section{Postup měření}
-Měření probíhalo tak, že jsme si nastavili překážku pro laser v dané vzdálenosti a pustili laser aparaturou na obrázku, následně na osciloskopu našli graf laserového výboje který do fotodiody (záznamového zařízení) přišel přímo z rozdělovače záření a druhý “peak” který se odrazil od překážky. Pak jsme je porovnali na osciloskopu a ten nám udal čas mezi vlnami a tím pádem nám dal potřebnou informaci pro změření vzdálenosti mezi rozdělovačem a zábranou. Vzdálenost jsme vypočítali pomocí tohoto vzorečku (c*t)/2, díky kterému jsme dostali relativně přesné hodnoty s odchylkou měření do 60 cm, protože jeden pulz laseru měl délku 60 cm, kdybychom pulzy dělali kratší, tak budeme mít vyšší přesnost, ale pro naše podmínky a zadání tato přesnost stačila
-
+Měření vzdálenosti metodou LiDAR probíhalo tak, že jsme si nastavili překážku pro laser v dané vzdálenosti a nechali jsme šířit laserový impuls dle schématu na obrázku, následně jsme pomocí osciloskopu detekovali časový průběh laserového impulsu který do fotodiody přišel přímo z děliče svazků a druhý impuls, který se odrazil od překážky. Pak jsme je porovnali na osciloskopu a ten nám udal časový rozdíl mezi impulsy a tím pádem nám dal potřebnou informaci pro výpočet vzdálenosti mezi rozdělovačem a zábranou. Vzdálenost jsme vypočítali pomocí tohoto vzorečku $\frac{c \cdot t}{2}$, díky kterému jsme dostali relativně přesné hodnoty s odchylkou měření do 60 cm, protože jeden puls laseru měl délku 60 cm, kdybychom pulzy dělali kratší, tak budeme mít vyšší přesnost, ale pro naše podmínky a zadání tato přesnost stačila.
 \begin{figure}[bh]
     \centering
     \includegraphics[width=0.5\textwidth]{Diagram měření.png}
     \caption{diagram měřící aparatury}
 \end{figure}
 
+\section{Měření výstupních parametrů laseru}
+Pro správné určení laseru jsme potřebovali změřit střední výkon, délku a časový průběh impulsu, profil svazku, vyzařované spektrum, energii a špičkový výkon. Střední výkon jsme měřili pomocí powermetru THORLABS PM100USB a sondou THORLABS PM16-401. Délku a časový průběh laserového impulsu jsme měřili pomocí osciloskopu TEKTRONIX TDS 3052B a InGaAs fotodiodou (FGA10). Profil svazku jsme měřili křemíkovou CCD kamerou WinCamD. Vyzařované spektrum jsme naměřili InGaAs mřížkovým spektrometrem od Stellarnetu (DWARF-STAR). Energii a špičkový výkon jsme vypočítali podle vzorečků $(P_{stř} \cdot t)$ a $\frac{E}{T}.$
 \section{Výsledek měření}
 Lorem Ipsum
 
