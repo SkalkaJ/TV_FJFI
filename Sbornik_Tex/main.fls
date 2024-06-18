@@ -1,8 +1,8 @@
-PWD c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/sablona_tex
+PWD c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/sablona_tex/main.tex
+INPUT c:/Users/kubab/Desktop/NoPornHere/git/TV_FJFI/Sbornik_Tex/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
