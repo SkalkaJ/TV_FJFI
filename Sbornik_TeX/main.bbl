@@ -145,18 +145,20 @@
     \endentry
     \entry{GitHub_copilot}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={Microsoft},
-           familyi={M\bibinitperiod}}}%
+        {{hash=7d8f89097a39ec235dc00b1ac7fa8fc2}{%
+           family={Copilot},
+           familyi={C\bibinitperiod},
+           given={GitHub},
+           giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{namehash}{7d8f89097a39ec235dc00b1ac7fa8fc2}
+      \strng{fullhash}{7d8f89097a39ec235dc00b1ac7fa8fc2}
+      \strng{fullhashraw}{7d8f89097a39ec235dc00b1ac7fa8fc2}
+      \strng{bibnamehash}{7d8f89097a39ec235dc00b1ac7fa8fc2}
+      \strng{authorbibnamehash}{7d8f89097a39ec235dc00b1ac7fa8fc2}
+      \strng{authornamehash}{7d8f89097a39ec235dc00b1ac7fa8fc2}
+      \strng{authorfullhash}{7d8f89097a39ec235dc00b1ac7fa8fc2}
+      \strng{authorfullhashraw}{7d8f89097a39ec235dc00b1ac7fa8fc2}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
