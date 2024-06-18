@@ -37,22 +37,26 @@
 \maketitle \thispagestyle{empty}
 
 \begin{abstract} \noindent
-Náš příspěvek se zaměřuje na aplikaci technologie dálkového měření LIDAR\\(Light Detection And Ranging). Tato technika je založena na stanovení doby šíření laserového paprsku odraženého od snímaného objektu. Věnuje se také základům generace laserového záření a měření výstupních parametrů u Q-spínaného mikročipového laseru Nd:YAG.
-\end{abstract}
+    Náš příspěvek se zaměřuje na aplikaci technologie dálkového měření vzdálenosti - LIDAR (Light Detection And Ranging). Tato technika je založena na stanovení doby šíření laserového paprsku odraženého od snímaného objektu. \\Věnuje se také základům generace laserového záření a měření výstupních parametrů u Q-spínaného mikročipového laseru Nd:YAG.\end{abstract}
 
 
 \section{Úvod}
 Úvodní a základní informace (motivace, současný stav problému, teoretický předpoklad)
 
+\pagebreak
+\section{Metody měření}
 
-\section{Tělo příspěvku}
-Tady zapíšete, co jste dělali. Prosím, nezapomeňte měnit i nadpisy kapitol (tedy neponechat „Tělo příspěvku“). Klidně si jej rozdělte do více kapitol v příspěvku vlastním. Rozhodně by tato sekce ale měla obsahovat
-\begin{enumerate}
+\section{Postup měření}
+Měření probíhalo tak, že jsme si nastavili překážku pro laser v dané vzdálenosti a pustili laser aparaturou na obrázku, následně na osciloskopu našli graf laserového výboje který do fotodiody (záznamového zařízení) přišel přímo z rozdělovače záření a druhý “peak” který se odrazil od překážky. Pak jsme je porovnali na osciloskopu a ten nám udal čas mezi vlnami a tím pádem nám dal potřebnou informaci pro změření vzdálenosti mezi rozdělovačem a zábranou. Vzdálenost jsme vypočítali pomocí tohoto vzorečku (c*t)/2, díky kterému jsme dostali relativně přesné hodnoty s odchylkou měření do 60 cm, protože jeden pulz laseru měl délku 60 cm, kdybychom pulzy dělali kratší, tak budeme mít vyšší přesnost, ale pro naše podmínky a zadání tato přesnost stačila
 
-\item Materiály a metody
-\item Výsledky a jejich diskuse
-\end{enumerate}
+\begin{figure}[bh]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Diagram měření.png}
+    \caption{diagram měřící aparatury}
+\end{figure}
 
+\section{Výsledek měření}
+Lorem Ipsum
 
 \section{Shrnutí}
 Závěrečné informace, shrnutí, vypíchnutí hledání, zodpovězení otázek, které motivovaly zkoumání, výhled do budoucna.
@@ -61,7 +65,7 @@ Závěrečné informace, shrnutí, vypíchnutí hledání, zodpovězení otázek
 
 \section*{Poděkování}
 Chtěli bychom velice poděkovat Ing. Kryštofovi Kadlecovi za jeho pomoc a podporu při vytváření tohoto příspěvku.
-Náš dík patří také FJFI za umožnění výzkumu v rámci projektu.
+Náš dík patří také FJFI za umožnění výzkumu v rámci projektu a KLFF za poskytnutí prostoru.
 \printbibliography
 
 \end{document}
